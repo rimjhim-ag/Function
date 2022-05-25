@@ -1,0 +1,21 @@
+def count(val)
+
+  Vov= 0
+
+  con=0
+
+  for 1 in range(len(val)):
+    if val[i] in ['a','e', 'i','o', 'u']:
+
+          Vov = Vov+1
+
+     else:
+
+          con= con +1
+
+print("Count of vowels is ",vov)
+print("Count of consonant is ".con)
+
+x=input("Enter Value :") 
+
+count(x)
