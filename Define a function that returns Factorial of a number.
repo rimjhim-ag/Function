@@ -1,0 +1,8 @@
+def fact(num):
+  f=1
+  while(num!=0):
+    f=f*num
+    num=num-1
+  return f
+n=int(input("enter no.")
+print(fact(n))
