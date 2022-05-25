@@ -1,0 +1,9 @@
+def power (N,P):
+  if P==0:
+    return 1
+ 
+  return (N*power(N,P-1))
+
+n,p=map(int,input("enter the number and power u want:").split())
+
+print(power(n,p))
