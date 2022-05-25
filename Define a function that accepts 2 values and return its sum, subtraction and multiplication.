@@ -1,0 +1,9 @@
+def result(a+b):
+  sum=a+b
+  mul=a*b
+  sub=a-b
+  print(f"sum is {sum} ,sub is{sub}and multiply is {mul})
+  
+a=int(input("enter first no.:")
+b=int(input("enter second no.:")
+result(a,b)
